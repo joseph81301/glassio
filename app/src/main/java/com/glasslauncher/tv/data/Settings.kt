@@ -304,7 +304,7 @@ class Settings(private val ctx: Context) {
     var libraryDown: Boolean get() = b("libraryDown", true); set(v) = putB("libraryDown", v)
 
     // ---- Nuvio / Home Assistant
-    /** auto (first installed: Legacy, official, Arc, Re-Shaped) | legacy | official | arc | reshaped */
+    /** auto (first installed: Pear, Legacy, official, Arc, Re-Shaped, Stremio) | pear | legacy | official | arc | reshaped | stremio */
     var nuvioTarget: String get() = s("nuvioTarget", "auto"); set(v) = putS("nuvioTarget", v)
     var haWebhook: String get() = s("haWebhook", ""); set(v) = putS("haWebhook", v.trim())
     var haOnLaunch: Boolean get() = b("haOnLaunch", false); set(v) = putB("haOnLaunch", v)

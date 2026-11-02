@@ -120,7 +120,7 @@ Tested on the Google TV Streamer (4K).
 - **Backdrop gallery** like the Apple TV app: each title shows several of its pictures before the carousel moves on.
 - **Continue Watching** at the start of the carousel (1–5 slides or all) or mixed in, with progress
   (`Continue · S1 · E3 · 42%`). Back from the player, the carousel opens on what you just watched.
-- Opening a title opens it directly in **Nuvio Legacy**, the **official Nuvio TV** app, **Nuvio Arc**, **Nuvio Re-Shaped**
+- Opening a title opens it directly in **Pear**, **Nuvio Legacy**, the **official Nuvio TV** app, **Nuvio Arc**, **Nuvio Re-Shaped**
   or **Stremio** (Settings → Connections → *Open titles in*; **Auto** picks the first installed).
 
 **Glass**

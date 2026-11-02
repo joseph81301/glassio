@@ -628,7 +628,7 @@ fun SettingsScreen(app: GlassApp, initialCat: Int, onClose: () -> Unit) {
                         { st.cwNuvioAccount }, { st.cwNuvioAccount = it; app.cw.pollNow() }))
                     add(Toggle("Catalogs from the Nuvio account's add-ons", "One that's already here isn't added twice", { st.catalogsNuvio }, { on -> io { app.catalogs.useAccount(on, "nuvio") } }))
                 }
-                add(Adjust("Open titles in", "Auto uses the first installed: Nuvio Legacy, Nuvio (official), Nuvio Arc, Nuvio Re-Shaped", {
+                add(Adjust("Open titles in", "Auto uses the first installed: Pear, Nuvio Legacy, Nuvio (official), Nuvio Arc, Nuvio Re-Shaped, Stremio", {
                     val n = NuvioLaunch.NAMES[st.nuvioTarget] ?: "Auto"
                     val r = NuvioLaunch.resolve(ctx, st)
                     when {

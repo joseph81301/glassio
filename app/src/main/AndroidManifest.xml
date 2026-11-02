@@ -24,6 +24,8 @@
         <intent><action android:name="org.adw.launcher.icons.ACTION_PICK_ICON"/></intent>
         <package android:name="space.nuvio.nativelegacy"/>
         <package android:name="com.nuvioreshaped.tv"/>
+        <package android:name="app.pear.tv"/>
+        <package android:name="app.pear.tv.debug"/>
     </queries>
 
     <application
